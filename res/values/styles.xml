@@ -1,0 +1,22 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+    
+    <style name="GeneralStyle">
+        <item name="android:colorBackground">@android:color/black</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:padding">50dp</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    
+    <style name="FoodSquareStyle" parent="GeneralStyle">
+        <item name="android:padding">10dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="FoodURLStyle" parent="GeneralStyle">
+        <item name="android:padding">10dp</item>
+    </style>
+    
+
+</resources>
